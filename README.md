@@ -1,4 +1,4 @@
-# discordPresence
+# discord Presence for Fivem
 discordPresence with button
 
 ###
