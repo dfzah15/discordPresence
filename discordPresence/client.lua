@@ -12,7 +12,7 @@ Citizen.CreateThread(function()
         local player = GetPlayerPed(-1)
         Citizen.Wait(5*1000)
 
-        SetDiscordAppId(--- your discord bot id----)  ---required
+        SetDiscordAppId(--[[ your discord bot id--]] )  ---required
 
 --[[	name = GetPlayerName(PlayerId())
     	id = GetPlayerServerId(PlayerId())
@@ -24,12 +24,10 @@ Citizen.CreateThread(function()
 
         SetDiscordRichPresenceAssetSmall("-- name image --") --required
       SetDiscordRichPresenceAssetSmallText(" your description")
-        
     end
-
 end)
+
 ---------------------------------[ button ]-------------------------------------------------------
 
-        SetDiscordRichPresenceAction(0, "💠 button 1", "fivem://connect/localhost:30120")
-        SetDiscordRichPresenceAction(1, "🚀 button 2", "https://discord.gg/")
-
+ --       SetDiscordRichPresenceAction(0, "💠 button 1", "fivem://connect/localhost:30120")
+  --      SetDiscordRichPresenceAction(1, "🚀 button 2", "https://discord.gg/")
